@@ -3,7 +3,6 @@
   padding-top: 40px;
 }
 
-
 .nossosProdutos-content {
   display: flex;
   gap: 40px;
@@ -15,6 +14,7 @@
   vertical-align: middle;
   margin-top: 10px;
   gap: 30px;
+  margin-bottom: 60px;
 }
 
 .linha {
@@ -28,76 +28,44 @@
   padding-left: 40px ;
 }
 
-.produtos img {
+.nossosProdutos-produtos {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.nossosProdutos-produtos div h2 {
+  margin-bottom: 32px;
+}
+
+.nossosProdutos img {
   height: 350px;
 }
 
-.nossosProdutos-slider {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  gap: 16px;
-  position: relative;
+.chocoPaleta {
+
 }
 
-
-.slider-imgs {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 400px;
-  transition: all 0.3s ease;
+.chocoPaleta img {
+  height: 350px;
+  transform: translateX(-30px);
 }
 
-.slider-imgs:hover {
-  transform: scale(1.05);
+.chocoBarra {
+  text-align: center;
 }
 
-.slider-imgs a {
-  position: absolute;
-  width: 100%;
-  height: 100%;    
-  display: flex;    
-  align-items: center;
-  justify-content: center;
+.chocoBarra img {
+  transform: translateX(15px);
 }
 
-
-.slider {
-  position: absolute;
-  width: 100%;
-  opacity: 0;
-  transition: opacity .2s;
-  object-fit: contain;
-  height: 400px;
-  pointer-events: none;
+.chocoEstojo {
+  text-align: center;
 }
 
-.on {
-  opacity: 1;
-  pointer-events: auto;
+.chocoEstojo img {
+  height: 300px;
 }
-
-.next-btn,
-.prev-btn {
-  width: 40px;
-  height: 40px;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-
-.prev-btn {
-  transform: rotate(180deg);
-}
-
-
-
 
 @media (min-width: 1500px) {
   .slider-imgs {
