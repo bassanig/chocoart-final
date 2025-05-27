@@ -1,5 +1,6 @@
 .nossosProdutos-bg {
-  background-color: var(--cor-p5);
+  background-color: var(--cor-p2);
+  padding-top: 40px;
 }
 
 
@@ -7,8 +8,6 @@
   display: flex;
   gap: 40px;
 }
-
-
 
 .nossosProdutos-content div {
   display: flex;
@@ -24,18 +23,14 @@
   background-color: var(--cor-p1);
 }
 
-
-
-
+#nomeProduto {
+  font-size: 2.5rem;
+  padding-left: 40px ;
+}
 
 .produtos img {
   height: 350px;
 }
-
-.produto1 {
-  background-color: #f9ebdf;
-}
-
 
 .nossosProdutos-slider {
   display: flex;
@@ -107,5 +102,8 @@
 @media (min-width: 1500px) {
   .slider-imgs {
     height: 600px;
+  }
+  .linha {
+    display: none;
   }
 }
