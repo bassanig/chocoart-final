@@ -1,0 +1,27 @@
+
+
+:root {
+    --cor-p1: #2f1204;
+    --cor-p2: #57271A;
+    --cor-p3: #7C4931;
+    --cor-p4: #906825;
+    --cor-p5: #dcd5cf;
+
+}
+
+
+.cor-p1 {
+  color: #2f1204;
+}
+.cor-p2 {
+  color: #57271A;
+}
+.cor-p3 {
+  color: #7C4931;
+}
+.cor-p4 {
+  color: #906825;
+}
+.cor-p5 {
+  color: #dcd5cf;;
+}
